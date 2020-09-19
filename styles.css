@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-logo {
+  width: 170px;
+  height: 45px;
+  margin-inline-end: 500px;
+}
+
+.main-nav {
+  width: 100%;
+  background: white;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav li {
+  padding: 10px 10px 10px 10px;
+  font-size: 20px;
+  line-height: 2;
+}
+.nav a {
+  transition: all 0.5s;
+  color: black;
+  text-decoration: none;
+}
+
+.main-header {
+  background: url("file:///Users/cinthyajauregui/documents/CheckIn/classroom.jpg")
+    no-repeat top center;
+  background-size: cover;
+  overflow: hidden;
+  background-position: center 15px;
+  padding-top: 10px;
+  padding-block-end: 150px;
+  color: #69bd44;
+  line-height: 1;
+  text-align: left;
+}
+
+header {
+  background-size: cover;
+  overflow: hidden;
+  background-position: center 5px;
+  padding-top: 0px;
+  padding-block-end: 100px;
+  color: #69bd44;
+  line-height: 1;
+  text-align: center;
+}
+h1 {
+  font-size: 80px;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.subtitle {
+  padding-top: 0;
+  line-height: 0.05;
+  font-size: 30px;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-family: "Lato", sans-serif;
+  color: #222;
+  background: white;
+}
+
+h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 30px;
+  color: #69bd44;
+}
+a {
+  color: gray;
+  font-weight: 700;
+}
+a:hover {
+  color: #69bd44;
+}
+
+main {
+  margin: 50px;
+  padding-block-end: 20px;
+}
+
+.about {
+  padding-top: 100px;
+  padding-block-end: 300px;
+}
+.form {
+  padding-top: 140px;
+  max-width: 700px;
+  margin: 10px auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  font-size: 16px;
+  height: auto;
+  outline: 0;
+  padding: 15px;
+  width: 200px;
+  color: black;
+  margin-bottom: 30px;
+  width: 100%;
+  border: 1px solid grey;
+}
+
+footer {
+  width: 100%;
+  min-height: 30px;
+  padding: 20px 0 40px 20px;
+}
+
+footer .copyright {
+  top: -8px;
+  text-indent: 30px;
+  font-size: 0.75em;
+  text-align: left;
+}
+button {
+  padding: 19px 39px 18px 39px;
+  color: #fff;
+  background-color: #69bd44;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 60px;
+  width: 50%;
+  border: 1px solid #69bd44;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+  margin-bottom: 10px;
+  font-weight: 700;
+  margin: 164px;
+  margin-block-start: -100px;
+}
+
+select {
+  height: 50px;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.phones {
+  background: url("file:///Users/cinthyajauregui/Documents/CheckIn/PhonesCheckIn.jpg")
+    no-repeat top center;
+  background-size: cover;
+  overflow: hidden;
+  background-position: center 100px;
+  padding-top: 10px;
+  padding-block-end: 1100px;
+  color: #69bd44;
+  line-height: 1;
+  text-align: center 50px;
+}
